@@ -29,8 +29,6 @@ func (a *App) loop() {
 				a.showAddTickerDialog = true
 			}),
 			g.Separator(),
-			g.MenuItem("Exit"),
-			g.Label("Decafolio"),
 		),
 	).Build()
 
